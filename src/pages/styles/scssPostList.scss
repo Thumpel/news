@@ -1,0 +1,17 @@
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .header{
+        padding: 15px;
+    }
+    .block_content{
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        height: 300px;
+        border: 1px solid black;
+        margin: 20px;
+    }
+}
